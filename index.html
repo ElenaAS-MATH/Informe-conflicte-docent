@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informe-resum</title>
+  <style>
+    body{
+      font-family: Georgia, "Times New Roman", serif;
+      margin: 32px;
+      color:#111;
+      line-height:1.35;
+    }
+    .page{
+      max-width: 980px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .top-image{
+      float: right;
+      width: 280px;
+      margin: 0 0 16px 24px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      cursor: zoom-in;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .top-image:hover {
+      opacity: 0.9;
+      transform: scale(1.02);
+    }
+    h1{
+      font-size: 1.7em;
+      margin: 0 0 18px 0;
+      line-height: 1.15;
+    }
+    p{
+      font-size: 1.05em;
+      margin: 0 0 14px 0;
+      text-align: justify;
+    }
+    .sources{
+      margin-top: 22px;
+      font-size: 0.92em;
+    }
+    .sources h2{
+      font-size: 1.05em;
+      margin: 0 0 8px 0;
+    }
+    .sources ul{
+      margin: 0;
+      padding-left: 18px;
+    }
+    .sources li{
+      margin: 0 0 6px 0;
+    }
+    .footer{
+      margin-top: 18px;
+      font-size: 0.95em;
+    }
+    .footer a{
+      color: inherit;
+    }
+    .license{
+      margin-top: 8px;
+      font-size: 0.9em;
+    }
+    .clear{ clear: both; }
+
+    /* Estils per al Visor d'Imatges (Modal/Lightbox) */
+    .lightbox-modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.85);
+      cursor: zoom-out;
+      overflow: auto;
+    }
+    .lightbox-content {
+      display: block;
+      margin: 2% auto;
+      max-width: 90%;
+      max-height: 92vh;
+      object-fit: contain;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
+      border-radius: 4px;
+      animation: zoomIn 0.25s ease-out;
+    }
+    .lightbox-close {
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.2s;
+    }
+    .lightbox-close:hover {
+      color: #ccc;
+    }
+
+    @keyframes zoomIn {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    @media print{
+      .top-image{ width: 240px; }
+      body{ margin: 18mm; }
+      .lightbox-modal { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- S'ha corregit el nom del fitxer a 'Educació de qualitat.png' per coincidir exactament amb el document adjunt -->
+    <img src="Educació de qualitat.png" alt="Imatge del document: Sóc docent i vull una educació de qualitat" class="top-image" id="thumbImage">
+
+    <h1>Informe-resum: conflicte docent a Catalunya (març-juliol 2026)</h1>
+
+    <p>Després de les vagues de març, el conflicte docent a Catalunya ha passat d’un rebuig massiu a l’acord inicial amb Educació a una nova fase de negociació, mobilització i redefinició de la pressió sindical. El punt d’arrencada va ser el preacord del 9 de març, que no va satisfer una part molt important del professorat i va desembocar en un cicle intens de vagues i protestes al llarg de la primavera.</p>
+
+    <p>A mitjan març, la votació telemàtica va mostrar un rebuig molt ampli al pacte: el 94,9% dels 42.965 docents participants hi van votar en contra. Aquest resultat va consolidar la continuïtat de les mobilitzacions i va mantenir la convocatòria de vaga de la setmana del 16 al 20 de març, amb una manifestació final a Barcelona.</p>
+
+    <p>A l’abril i al maig, els sindicats majoritaris contraris a l’acord van activar un nou calendari de pressió amb vagues territorials i jornades a tot Catalunya. El pla incloïa tres jornades generals, a breaths d’aturades per zones i accions als centres, amb el missatge que el conflicte no era només salarial, sinó també de ràtios, burocràcia i recursos per a l’escola inclusiva.</p>
+
+    <p>El 28 de maig va arribar el preacord del 29 de maig, que Educació va tancar amb quatre dels cinc sindicats de la taula. La proposta incorporava una millora econòmica, més dotacions per a la inclusiva, reducció de ràtios i altres mesures organitzatives; el Govern i els sindicats signants el van presentar com una millora clara respecte al marc anterior.</p>
+
+    <p>Tanmateix, el preacord no va tancar el conflicte. USTEC i altres organitzacions van obrir consulta a les bases i van advertir que, si el text era rebutjat, hi hauria més mobilització i fins i tot vaga indefinida a partir del 8 de juny. La tensió va quedar oberta entre la via del pacte signat per una part dels sindicats i la continuïtat de la lluita impulsada per les plataformes més crítiques.</p>
+
+    <p>Els principals punts d’interès del conflicte han estat tres: la recuperació del poder adquisitiu, la desburocratització i la reducció de càrrega de treball, i l’augment de recursos estructurals per a l’escola pública, especialment inclusiva i de suport. Un element important ha estat la divisió entre el sindicalisme que va signar el marc de març i el que el va rebutjar, una fractura que ha marcat tota l’evolució del conflicte.</p>
+
+    <p>La darrera gran fita ha estat l’assemblea de l’11 de juliol a Sant Celoni, o l’Assemblea Educativa de Catalunya va acordar convocar vaga el 8 de setembre, primer dia del curs 2026-2027. L’assemblea també va reclamar al Govern que convoqui amb urgència la mesa de negociació amb el comitè de vaga, i va situar el curs vinent com una nova fase de pressió si no hi ha respostes.</p>
+
+    <p>Així, el conflicte no s’ha resolt: ha passat de la confrontació sobre el preacord de març a una estratègia de preparació d’una nova onada de mobilitzacions de tardor. La situació actual és de tensió sostinguda, amb una part del sector oberta a l’acord parcial i una altra part disposada a reactivar la vaga si no hi ha una negociació més àmplia i efectiva.</p>
+
+    <div class="sources">
+      <h2>Fonts d’informació</h2>
+      <ul>
+        <li><a href="https://www.3cat.cat/3catinfo/tot-a-punt-per-a-la-consulta-als-docents-sobre-el-preacord-pregunta-dies-i-com-queden-les-vagues/noticia/3399256/" target="_blank" rel="noopener noreferrer">3Cat — Tot a punt per a la consulta als docents sobre el preacord</a></li>
+        <li><a href="https://www.rtve.es/catalunya/noticies/20260529/reunio-decisiva-a-educacio-sota-pressio-tancada-dels-sindicats/17091243.shtml" target="_blank" rel="noopener noreferrer">RTVE Catalunya — Preacord entre Educació i sindicats majoritaris</a></li>
+        <li><a href="https://www.3cat.cat/3catinfo/els-docents-tomben-el-preacord-pero-educacio-el-tirar-a-endavant/noticia/3413298/" target="_blank" rel="noopener noreferrer">3Cat — Els docents tomben el preacord</a></li>
+        <li><a href="https://www.elpuntavui.cat/societat/article/16-educacio/2642604-els-docents-tornen-a-mobilitzar-se-en-un-clima-molt-tens-amb-el-preacord-sobre-la-taula.html" target="_blank" rel="noopener noreferrer">El Punt Avui — Els docents tornen a mobilitzar-se</a></li>
+        <li><a href="https://www.elpais.com/espana/catalunya/2026-07-11/los-docentes-acuerdan-ir-a-la-huelga-el-8-de-septiembre-el-curso-no-empezara-con-normalidad/" target="_blank" rel="noopener noreferrer">El País — Los docentes acuerdan ir a la huelga el 8 de septiembre</a></li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <p><a href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer">Document elaborat amb perplexity</a></p>
+      <p class="license"><a href="https://elenaas-math.github.io/">Autoria:</a> © 2026 by <a href="https://elenaas-math.github.io/">Elena Álvarez Spagnolo</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em bridge;"></p>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <!-- Estructura del Lightbox / Modal per ampliar la imatge -->
+  <div id="imageLightbox" class="lightbox-modal">
+    <span class="lightbox-close" id="closeLightbox">&times;</span>
+    <img class="lightbox-content" id="largeImage">
+  </div>
+
+  <script>
+    // Selecció d'elements de la interfície
+    var thumbImg = document.getElementById("thumbImage");
+    var lightbox = document.getElementById("imageLightbox");
+    var largeImg = document.getElementById("largeImage");
+    var closeBtn = document.getElementById("closeLightbox");
+
+    // Obrir el visor al fer clic sobre la imatge miniatura
+    thumbImg.onclick = function() {
+      lightbox.style.display = "block";
+      largeImg.src = this.src;
+    }
+
+    // Tancar el visor al fer clic a la 'X'
+    closeBtn.onclick = function() {
+      lightbox.style.display = "none";
+    }
+
+    // Tancar el visor al fer clic a qualsevol lloc de la pantalla exterior a la imatge gran
+    lightbox.onclick = function(event) {
+      if (event.target !== largeImg) {
+        lightbox.style.display = "none";
+      }
+    }
+
+    // Tancar també amb la tecla Esc per accessibilitat i comoditat
+    document.addEventListener('keydown', function(event) {
+      if (event.key === "Escape") {
+        lightbox.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
